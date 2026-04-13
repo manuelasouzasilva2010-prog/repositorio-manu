@@ -342,3 +342,25 @@ body {
 .imagem:hover {
     transform:scale(1.1);
 }
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #780066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.rodape a:hover{
+    color: #e6a1e4;
+}
